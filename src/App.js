@@ -1,13 +1,15 @@
 import { Layout } from 'antd';
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import { Footer, Navbar } from './components/Index';
-import CryptoDetails from './pages/Crypto/Index';
-import CryptoCurrencies from './pages/CryptoCurrencies/Index';
-import Exchanges from './pages/Exchanges/Index';
-import Home from './pages/Home/Index';
-import News from './pages/News/Index';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import { Navbar, Footer } from './components/Index';
+import {
+  Home,
+  News,
+  Exchanges,
+  CryptoDetails,
+  CryptoCurrencies,
+} from './pages/Index';
 
 function App() {
   return (
