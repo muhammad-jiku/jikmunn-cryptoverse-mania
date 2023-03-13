@@ -1,9 +1,10 @@
 import React from 'react';
+import ExchangesSection from '../../components/Exchanges/ExchangesSection';
 
 const Exchanges = () => {
   return (
     <div>
-      <h1>Exchanges</h1>
+      <ExchangesSection />
     </div>
   );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
+import CryptoSection from '../../components/Crypto/CryptoSection';
 
 const CryptoDetails = () => {
   return (
     <div>
-      <h1>Crypto</h1>
+      <CryptoSection />
     </div>
   );
 };

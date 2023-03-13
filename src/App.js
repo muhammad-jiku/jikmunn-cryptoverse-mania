@@ -5,7 +5,7 @@ import Navbar from './components/Shared/Navbar';
 import CryptoDetails from './pages/Crypto/Index';
 import CryptoCurrencies from './pages/CryptoCurrencies/Index';
 import Exchanges from './pages/Exchanges/Index';
-import Homepage from './pages/Home/Index';
+import Home from './pages/Home/Index';
 import News from './pages/News/Index';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <div className="app">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Home />} />
         <Route path="/exchanges" element={<Exchanges />} />
         <Route path="/cryptocurrencies" element={<CryptoCurrencies />} />
         <Route path="/crypto/:coinId" element={<CryptoDetails />} />
